@@ -1,0 +1,32 @@
+@import './reset.scss';
+
+:root {
+   --color-primary: #ff2253;
+   --color-primery-50: #FFE9EE;
+
+   --color-secondary: #4ACA94;
+   --color-secondary-50: #E4F7EF;
+
+    --color-tertiary: #FF2253;
+    --colort-tertiary-50: #FFE9EE;
+
+    --color-quaternary: #4ACA94;
+    --color-quaternary-50: #E4F7EF;
+
+   --font: 'Inter', sans-serif;
+
+    --color-facebook: #FF2253;
+    --color-instagram: #FFE9EE;
+    --color-linkdln: #4ACA94;
+
+    --grey-1: #F8F9FA;
+    --grey-2: #E9ECEF;
+    --grey-3: #868E96;
+    --grey-4: #212529;
+};
+
+
+button {
+    cursor: pointer;
+    font-family: var(--font);
+};
