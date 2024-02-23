@@ -178,3 +178,18 @@ export const projects =
     link: "",
 },
 ]
+
+export const infos = [
+    "Vivências com desenvolvimento web em JavaScript", 
+    "Experiência com uso de Html e Css", 
+    "Vivências com utilização do Git e GitHub", 
+    "Vivências com desenvolvimento web em Python",
+    "Experiência com uso do Django",
+    "Experiência com uso de React",
+    "Conhecimentos de Express.js",
+    "Vivências com desenvolvimento web em Typescript",
+    "Desenvolvimento em equipe junto ao Trello",
+    "Familiaridade com boas práticas de desenvolvimento web",
+    "Familiaridade com figma",
+    "Experiência com DBeaver",
+]
