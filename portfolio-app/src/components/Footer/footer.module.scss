@@ -1,0 +1,65 @@
+.footerContainer{
+    width: 100%;
+    background-color: var(--grey-0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: .625rem;
+    color: var(--grey-1);
+    //margin: .625rem auto;
+    padding: .625rem 0rem;
+
+    @media (min-width: 37.5rem) {
+        flex-direction: row;
+        height: 4.75rem;
+        gap: 0rem
+    }
+
+    .textDiv{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: .9375rem;
+
+        @media (min-width: 37.5rem) {
+            flex-direction: row;
+        }
+
+        img{
+            width: 3rem;
+            height: 3rem;
+            border-radius: 6.25rem;
+        }
+
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: .4375rem;
+
+            h1{
+                color: var(--grey-1);
+                font-weight: 700;
+                font-size: 1.375rem;
+            }
+
+            p{
+                color: var(--grey-3);
+                font-size: .875rem;
+            }
+        }
+    }
+
+    .iconDiv{
+        
+        
+        img{
+            width: 3rem;
+            height: 3rem;
+        }
+    }
+}
