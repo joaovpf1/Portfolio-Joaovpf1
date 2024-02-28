@@ -177,7 +177,9 @@ export const projects =
     github:"https://github.com/joaovpf1/gerenciador-contatos-fullstack-joaovpf1",
     link: "",
 },
-]
+];
+
+export const projectList = projects.reverse();
 
 export const infos = [
     "Vivências com desenvolvimento web em JavaScript", 
