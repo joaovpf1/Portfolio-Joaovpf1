@@ -1,30 +1,41 @@
 @import './reset.scss';
 
 :root {
-   --color-primary: #ff2253;
-   --color-primery-50: #FFE9EE;
+   --color-primary: #623CEA;
+   --color-primary-50: #311E75;
 
-   --color-secondary: #4ACA94;
-   --color-secondary-50: #E4F7EF;
+   --color-secondary: #50CF9A;
+   --color-secondary-50: #E5F8F0;
 
-    --color-tertiary: #FF2253;
-    --colort-tertiary-50: #FFE9EE;
+    --color-tertiary: #FF577F;
+    --colort-tertiary-50: #311E75;
 
-    --color-quaternary: #4ACA94;
-    --color-quaternary-50: #E4F7EF;
+    --color-quaternary: #506CCF;
+    --color-quaternary-50:#E5E9F8;
 
    --font: 'Inter', sans-serif;
 
-    --color-facebook: #FF2253;
-    --color-instagram: #FFE9EE;
-    --color-linkdln: #4ACA94;
+    --color-facebook:#506CCF;
+    --color-instagram:#CF50AC;
+    --color-linkdln: #0E76A8;
 
+    --grey-0: #0A0A0B;
     --grey-1: #F8F9FA;
     --grey-2: #E9ECEF;
     --grey-3: #868E96;
     --grey-4: #212529;
 };
 
+body{
+    width: 100vw;
+    height: 100vh;
+    //margin: 0 auto;
+    //display: flex;
+    //flex-direction: column;
+    //justify-content: center;
+    //align-items: center;
+
+};
 
 button {
     cursor: pointer;
