@@ -20,6 +20,7 @@ export function HomePage(){
         <Header/>
         <main className={styles.homeContainer}>
             <section className={styles.welcomeSection}>
+                <div>
                     <div className={styles.ownerDiv}>
                         <img src={fotoperfil} alt="Owner's photo" />
                         <h2>Oi, meu nome é João Victor.</h2>
@@ -43,6 +44,7 @@ export function HomePage(){
                         <img src={nodeicon} alt="Node icon" />
                         <img src={reacticon} alt="React Icon" />
                     </div>
+                </div>
             </section>
             <section className={styles.projectSection}>
                 <div className={styles.titleDiv}>
