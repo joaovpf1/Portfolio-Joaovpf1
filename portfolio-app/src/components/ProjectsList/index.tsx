@@ -14,9 +14,9 @@ export function ProjectList(){
             </p>
             <p>{project.description}</p>
             <div>
-              <a href={project.github}><img src={githubIcon} alt="Github icon" />GitHub</a>
+              <a href={project.github} target="_blank"><img src={githubIcon} alt="Github icon" />GitHub</a>
               {project.link.length > 0 && 
-              <a href={project.link}> <img src={share} alt="Share icon"/>Link</a>}
+              <a href={project.link} target="_blank"> <img src={share} alt="Share icon"/>Link</a>}
             </div>
           </li> 
           ))}

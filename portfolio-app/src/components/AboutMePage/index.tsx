@@ -32,7 +32,7 @@ export function AboutMePage(){
                         <Link to="/projects">
                         <button>Ver Projetos</button>
                         </Link>
-                        <a href="https://github.com/joaovpf1">
+                        <a href="https://github.com/joaovpf1" target="_blank">
                         <img src={githubicon} alt="Github icon" />
                         </a>
                     </div>
@@ -63,7 +63,7 @@ export function AboutMePage(){
             <section className={styles.infoSection}>
                 <div className={styles.msgDiv}>
                     <h1>Vamos conversar e <b>desenvolver</b> nossa <b>criatividade</b> juntos?</h1>
-                    <p>Acesse meu currículo clicando <a href="https://docs.google.com/document/d/17wJRlESOE7CJH4cpRj7eudcV8WLB6zEqJu8Bng0Z1vQ/edit?usp=sharing">aqui.</a></p>
+                    <p>Acesse meu currículo clicando <a href="https://docs.google.com/document/d/17wJRlESOE7CJH4cpRj7eudcV8WLB6zEqJu8Bng0Z1vQ/edit?usp=sharing" target="_blank">aqui.</a></p>
                 </div>
                 <div className={styles.netDiv}>
                     <div className={styles.iconDiv}>
@@ -71,15 +71,15 @@ export function AboutMePage(){
                         <div>
                             <h2>Meu Whatsapp</h2>
                             <p>Me mande uma menasgem.</p>
-                            <button><a href="mailto:jvictorpf@outlook.com">Mandar email</a></button>
+                            <button><a href="https://wa.me/+55031991514910" target="_blank">Mandar mensagem</a></button>
                         </div>
                     </div>
                     <div className={styles.iconDiv}>
                         <img src={emailicon} alt="Email icon" />
                         <div>
-                            <h2>Meu email</h2>
+                            <h2>Meu Email</h2>
                             <p>Me mande um email com seus feedbacks, sugestões e ideias.</p>
-                            <button><a href="mailto:jvictorpf@outlook.com">Mandar email</a></button>
+                            <button><a href="mailto:jvictorpf@outlook.com" target="_blank">Mandar email</a></button>
                         </div>
                     </div>
                     <div className={styles.iconDiv}>
@@ -87,7 +87,7 @@ export function AboutMePage(){
                         <div>
                             <h2>Meu LinkedIn</h2>
                             <p>Podemos nos conectar para criar mais interação.</p>
-                            <button><a href="www.linkedin.com/in/joão-victor-possidônio-ferreira-6aa891181">Ir para o LinkedIn</a></button>
+                            <button><a href="https://www.linkedin.com/in/joão-victor-possidônio-ferreira-6aa891181/" target="_blank">Ir para o LinkedIn</a></button>
                         </div>
                     </div>
                 </div>

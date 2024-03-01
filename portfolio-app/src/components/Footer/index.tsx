@@ -13,7 +13,7 @@ export function Footer(){
                 </div>
             </div>
             <div className={styles.iconDiv}>
-                <a href="https://www.linkedin.com/in/joão-victor-possidônio-ferreira-6aa891181">
+                <a href="https://www.linkedin.com/in/joão-victor-possidônio-ferreira-6aa891181" target="_blank">
                     <img src={linkedinIcon} alt="LinkedIn icon" />
                 </a>
             </div>
